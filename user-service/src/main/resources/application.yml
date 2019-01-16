@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/youyaboot
+    username: root
+    password: zhouzhu
+    hikari:
+      idle-timeout: 60000
+      maximum-pool-size: 30
+      minimum-idle: 10
+mybatis:
+  type-aliases-package: com.zhouzhu.user.pojo
